@@ -5,8 +5,7 @@ Thanks to cryochick(223198174624481280) and crimsonshadow1232(109721709994180615
 Thank you to [Happycam](https://steamcommunity.com/id/happycam2000) for the texture art!
 
 ## Texture/art
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
-The texture/art resources are released separately by [Happycam](https://steamcommunity.com/id/happycam2000) under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) The texture/art resources are released separately by [Happycam](https://steamcommunity.com/id/happycam2000) under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [Download them here](https://drive.google.com/drive/folders/1HoGvPyKPzLbJnhfQO2GoL5qCqOL3txzb?usp=sharing)
 
 ## Install Mod Locally
@@ -20,10 +19,8 @@ A Visual Studio Solution is provided in the source file.
 This mod requires [RimRef](https://www.nuget.org/packages/Krafs.Rimworld.Ref) and [Lib.Harmony](https://www.nuget.org/packages/Lib.Harmony) to compile correctly.  
 
 ## Licenses
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
-All code and texts are made by [AmCh](https://github.com/AmCh-Q) and are licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)  
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-Mod textures and images (not included in this repository) are made by [Happycam](https://steamcommunity.com/id/happycam2000) and are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) All code and texts are made by [AmCh](https://github.com/AmCh-Q) and are licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)  
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) Mod textures and images (not included in this repository) are made by [Happycam](https://steamcommunity.com/id/happycam2000) and are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
 The dummy textures are by [Ludeon Studios](https://ludeon.com/), please contact them regarding the "RimWorld Tool Cabinet Textures" for licenses.
 
 ---
@@ -35,8 +32,7 @@ The dummy textures are by [Ludeon Studios](https://ludeon.com/), please contact 
 感谢[Happycam](https://steamcommunity.com/id/happycam2000)的图片素材！
 
 ## 图片素材
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
-模组的图片素材由[Happycam](https://steamcommunity.com/id/happycam2000)以[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)单独发布。
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) 模组的图片素材由[Happycam](https://steamcommunity.com/id/happycam2000)以[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)单独发布。
 [从这里下载](https://drive.google.com/drive/folders/1HoGvPyKPzLbJnhfQO2GoL5qCqOL3txzb?usp=sharing)
 
 ## 本地安装
@@ -50,8 +46,6 @@ The dummy textures are by [Ludeon Studios](https://ludeon.com/), please contact 
 这个模组需要[RimRef](https://www.nuget.org/packages/Krafs.Rimworld.Ref)和[Lib.Harmony](https://www.nuget.org/packages/Lib.Harmony)的支持才能正确编译。
 
 ## 授权
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
-全部代码和文本的作者是[AmCh](https://github.com/AmCh-Q),以[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)发布。  
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-模组图片素材（不含在这个仓库里面）的作者是[Happycam](https://steamcommunity.com/id/happycam2000)，以[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)发布。  
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 全部代码和文本的作者是[AmCh](https://github.com/AmCh-Q),以[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)发布。  
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) 模组图片素材（不含在这个仓库里面）的作者是[Happycam](https://steamcommunity.com/id/happycam2000)，以[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)发布。  
 仓库里的替代素材由[Ludeon Studios](https://ludeon.com/)创作，可以向他们询问"RimWorld Tool Cabinet Textures"的具体授权。
