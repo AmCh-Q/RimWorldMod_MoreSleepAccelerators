@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <LargeSleepAccelerator.label>大型睡眠加速器</LargeSleepAccelerator.label>
+  <LargeSleepAccelerator.description>一個可以加速使用者生理節奏的床邊裝置。雖然可以加速睡眠，但亦消耗大量電力並加速飢餓。必須放置在床頭旁邊。一張床只能受到一個睡眠加速器的影響。</LargeSleepAccelerator.description>
+
+  <RangeSleepAccelerator.label>广域睡眠加速器</RangeSleepAccelerator.label>
+  <RangeSleepAccelerator.description>一個可以加速使用者生理節奏的床邊裝置。雖然可以加速睡眠，但亦消耗大量電力並加速飢餓。可以影響一定範圍内的多個睡眠者，但耗電也更高。一張床只能受到一個睡眠加速器的影響。</RangeSleepAccelerator.description>
+
+</LanguageData>
