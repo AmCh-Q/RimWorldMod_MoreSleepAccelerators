@@ -1,6 +1,6 @@
 # More Sleep Accelerators
 This is a Mod for the game [RimWorld](https://store.steampowered.com/app/294100).  
-The mod is not on Steam Workshop yet, but it likely will be soon.  
+[Subscribe on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3201556917).  
 Thanks to cryochick(223198174624481280) and crimsonshadow1232(1097217099941806151) on Discord and [Happycam](https://steamcommunity.com/id/happycam2000) for ideas!  
 Thank you to [Happycam](https://steamcommunity.com/id/happycam2000) for the texture art!
 
@@ -26,8 +26,8 @@ The dummy textures are by [Ludeon Studios](https://ludeon.com/), please contact 
 ---
 
 # 更多速眠装置/睡眠加速器
-这个是为游戏“[环世界](https://store.steampowered.com/app/294100)”制作的一个模组。  
-暂未发布到Steam创意工坊上，过一段时间后大概会发。
+这个是为游戏“[环世界](https://store.steampowered.com/app/294100)”制作的一个模组。 
+[Steam创意工坊订阅](https://steamcommunity.com/sharedfiles/filedetails/?id=3201556917)。  
 感谢DC群里的cryochick(223198174624481280)和crimsonshadow1232(1097217099941806151), 以及[Happycam](https://steamcommunity.com/id/happycam2000)的创意！  
 感谢[Happycam](https://steamcommunity.com/id/happycam2000)的图片素材！
 
