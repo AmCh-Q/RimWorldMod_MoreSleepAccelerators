@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MustPlaceOnWall>必须靠墙放置。</MustPlaceOnWall>
+  <SomethingPlacedOnThisWall>这面墙上已经有东西了。</SomethingPlacedOnThisWall>
+  <CannotSupportAttachment>此建筑物不支持附件。</CannotSupportAttachment>
+
+</LanguageData>

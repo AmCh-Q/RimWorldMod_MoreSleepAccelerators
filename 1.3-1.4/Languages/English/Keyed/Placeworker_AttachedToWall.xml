@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MustPlaceOnWall>Must be placed against a wall.</MustPlaceOnWall>
+  <SomethingPlacedOnThisWall>Something is already placed on this wall.</SomethingPlacedOnThisWall>
+  <CannotSupportAttachment>This building can not support attachments.</CannotSupportAttachment>
+
+</LanguageData>

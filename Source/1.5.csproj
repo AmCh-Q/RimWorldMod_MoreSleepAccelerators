@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <RootNamespace>MoreSleepAccelerators</RootNamespace>
+    <AssemblyName>More Sleep Accelerators</AssemblyName>
+    <ProjectGuid>{F6298627-A885-4D49-938B-19D7A841818E}</ProjectGuid>
+    <OutputPath>..\1.5\Assemblies\</OutputPath>
+    <BaseIntermediateOutputPath>obj\1.5\</BaseIntermediateOutputPath>
+    <MSBUildProjectExtensionsPath>obj\1.5\</MSBUildProjectExtensionsPath>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DefineConstants>DEBUG;v1_5</DefineConstants>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DefineConstants>v1_5</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <ItemGroup>
+    <Compile Include="Mod.cs" />
+    <Compile Include="Debug.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="CSharpPatches\CanPotentiallyLinkTo.cs" />
+    <Compile Include="CSharpPatches\GetPotentiallySupplantedFacility.cs" />
+    <Compile Include="CSharpPatches\HasActiveLinkedFacility.cs" />
+    <Compile Include="CSharpPatches\IsBetter.cs" />
+    <Compile Include="CSharpPatches\PotentialThingsToLinkTo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.*" />
+    <PackageReference Include="Lib.Harmony" Version="2.3.*" ExcludeAssets="runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

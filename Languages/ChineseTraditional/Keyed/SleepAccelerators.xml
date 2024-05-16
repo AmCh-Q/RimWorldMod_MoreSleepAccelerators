@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MoreSleepAccelerators.Name>更多睡眠加速器</MoreSleepAccelerators.Name>
+
+  <MoreSleepAccelerators.enabled_SleepAcceleratorsStack>多種睡眠加速器的效果可以叠加</MoreSleepAccelerators.enabled_SleepAcceleratorsStack>
+  <MoreSleepAccelerators.enabled_WallMountedSleepAccelerator>解鎖壁挂睡眠加速器</MoreSleepAccelerators.enabled_WallMountedSleepAccelerator>
+  <MoreSleepAccelerators.enabled_LargeSleepAccelerator>解鎖大型睡眠加速器</MoreSleepAccelerators.enabled_LargeSleepAccelerator>
+  <MoreSleepAccelerators.enabled_RangeSleepAccelerator>解鎖广域睡眠加速器</MoreSleepAccelerators.enabled_RangeSleepAccelerator>
+  <MoreSleepAccelerators.powerIdle>待機功耗：{0}瓦</MoreSleepAccelerators.powerIdle>
+  <MoreSleepAccelerators.powerActive>運轉功耗：{0}瓦</MoreSleepAccelerators.powerActive>
+  <MoreSleepAccelerators.range>效果半徑：{0}格</MoreSleepAccelerators.range>
+
+</LanguageData>
