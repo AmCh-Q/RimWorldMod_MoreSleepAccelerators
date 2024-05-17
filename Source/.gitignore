@@ -1,0 +1,8 @@
+.vs
+bin
+obj
+Textures/Things/**
+Textures/**/*.dds
+**/*.dll
+**/*.zip
+**/*.7z

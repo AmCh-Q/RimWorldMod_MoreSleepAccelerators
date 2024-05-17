@@ -8,6 +8,7 @@
     <BaseIntermediateOutputPath>obj\1.5\</BaseIntermediateOutputPath>
     <MSBUildProjectExtensionsPath>obj\1.5\</MSBUildProjectExtensionsPath>
     <AppDesignerFolder>Properties</AppDesignerFolder>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <OutputType>Library</OutputType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,10 +44,7 @@
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.*" />
     <PackageReference Include="Lib.Harmony" Version="2.3.*" ExcludeAssets="runtime" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="LICENSE" />
-    <None Include="README.md" />
+    <None Include="LICENSE" Pack="true" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
