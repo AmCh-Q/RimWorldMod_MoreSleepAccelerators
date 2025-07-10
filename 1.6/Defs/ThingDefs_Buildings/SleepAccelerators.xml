@@ -164,7 +164,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>80</basePowerConsumption>
+        <basePowerConsumption>120</basePowerConsumption>
       </li>
       <li Class="CompProperties_FacilityInUse">
         <inUsePowerConsumption>800</inUsePowerConsumption>
@@ -289,7 +289,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>120</basePowerConsumption>
+        <basePowerConsumption>50</basePowerConsumption>
       </li>
       <li Class="CompProperties_FacilityInUse">
         <inUsePowerConsumption>400</inUsePowerConsumption>

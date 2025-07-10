@@ -52,7 +52,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>50</basePowerConsumption>
+        <basePowerConsumption>100</basePowerConsumption>
       </li>
       <li Class="CompProperties_FacilityInUse">
         <inUsePowerConsumption>400</inUsePowerConsumption>
@@ -63,7 +63,7 @@
         <statOffsets>
           <BedRestEffectiveness>0.35</BedRestEffectiveness>
         </statOffsets>
-        <maxSimultaneous>1</maxSimultaneous>
+        <maxSimultaneous>2</maxSimultaneous>
         <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
         <mustBePlacedAdjacentCardinalToAndFacingBedHead>true</mustBePlacedAdjacentCardinalToAndFacingBedHead>
       </li>
@@ -281,7 +281,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>50</basePowerConsumption>
+        <basePowerConsumption>120</basePowerConsumption>
       </li>
       <li Class="CompProperties_FacilityInUse">
         <inUsePowerConsumption>400</inUsePowerConsumption>
