@@ -10,7 +10,7 @@ The texture/art resources are released separately by [Happycam](https://steamcom
 [Download them here](https://drive.google.com/drive/folders/1HoGvPyKPzLbJnhfQO2GoL5qCqOL3txzb?usp=sharing)  
 
 ## Install Mod Locally (without Steam)
-1. Make sure you have installed RimWorld game version 1.3-1.5 and the Ideology DLC, pre-1.3 versions of the game are not supported due to lack of Ideology support.  
+1. Make sure you have installed RimWorld game version 1.3-1.6 and the Ideology DLC, pre-1.3 versions of the game are not supported due to lack of Ideology support.
 2. Also make sure you've also installed [Harmony](https://github.com/pardeike/HarmonyRimWorld).
 3. Download the mod from [releases](https://github.com/AmCh-Q/RimWorldMod_MoreSleepAccelerators/releases) and extract it into your game's "Mods" directory.  
 4. Download textures from [here](https://drive.google.com/drive/folders/1HoGvPyKPzLbJnhfQO2GoL5qCqOL3txzb?usp=sharing) and overwrite the "Textures" directory of the mod with it.  
@@ -40,7 +40,7 @@ Mod textures and images (not included in this repository) are made by [Happycam]
 [从这里下载](https://drive.google.com/drive/folders/1HoGvPyKPzLbJnhfQO2GoL5qCqOL3txzb?usp=sharing)
 
 ## 本地安装（不使用Steam）
-1. 确认你安装了环世界1.3-1.5版本，以及文化DLC，1.2以前的版本因为不支持文化DLC而无法运行此模组；  
+1. 确认你安装了环世界1.3-1.6版本，以及文化DLC，1.2以前的版本因为不支持文化DLC而无法运行此模组；
 2. 另外确认你安装了[Harmony](https://github.com/pardeike/HarmonyRimWorld)模组；  
 3. 从[这里](https://github.com/AmCh-Q/RimWorldMod_MoreSleepAccelerators/releases)下载发布的模组，并解压放在你的游戏"Mods"路径下；  
 4. 从[这里](https://drive.google.com/drive/folders/1HoGvPyKPzLbJnhfQO2GoL5qCqOL3txzb?usp=sharing)下载图片素材，并覆盖解压后的"Textures"路径。  
