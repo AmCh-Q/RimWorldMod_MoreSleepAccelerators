@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>More Sleep Accelerators</name>
-  <author>AmCh</author>
+  <authors>
+    <li>AmCh</li>
+    <li>Happycam</li>
+  </authors>
   <packageId>AmCh.MoreSleepAccelerators</packageId>
   <modVersion IgnoreIfNoMatchingField="True">1.2.3</modVersion>
   <modIconPath IgnoreIfNoMatchingField="True">MoreSleepAccelerators/ModIcon</modIconPath>
