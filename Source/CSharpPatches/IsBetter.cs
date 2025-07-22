@@ -28,7 +28,7 @@ namespace MoreSleepAccelerators.Patches
 			ThingDef thanDef = thanThisFacility.def;
 			if (facilityDef != thanDef &&
 				facilityDef == Utility.sleepAccelerator &&
-				Utility.newAccelerators.ContainsValue(thanDef))
+				Utility.newAccelerators!.ContainsValue(thanDef))
 				facilityDef = thanDef;
 		}
 	}

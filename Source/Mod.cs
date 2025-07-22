@@ -31,8 +31,8 @@ namespace MoreSleepAccelerators
 	public static class PatchApplier
 	{
 		public static readonly Harmony harmony
-			= new Harmony(id: "AmCh.MoreSleepAccelerators");
-		private static bool patched = false;
+			= new(id: "AmCh.MoreSleepAccelerators");
+		private static bool patched;
 		public static void TogglePatches(bool enable)
 		{
 			if (patched == enable)

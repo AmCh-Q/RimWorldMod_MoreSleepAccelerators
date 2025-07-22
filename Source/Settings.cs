@@ -1,12 +1,14 @@
-﻿using RimWorld;
+﻿using System;
+using System.Globalization;
 using UnityEngine;
+using RimWorld;
 using Verse;
 
 namespace MoreSleepAccelerators
 {
 	public class Settings : ModSettings
 	{
-		public bool enabled_SleepAcceleratorsStack = false;
+		public bool enabled_SleepAcceleratorsStack;
 		public bool enabled_WallMountedSleepAccelerator = true;
 		public float powerIdle_WallMountedSleepAccelerator = 50f;
 		public float powerActive_WallMountedSleepAccelerator = 400f;
@@ -37,7 +39,7 @@ namespace MoreSleepAccelerators
 		{
 			if (!Utility.initialized)
 				return;
-			ThingDef wallMountedSleepAccelerator = Utility.newAccelerators["WallMountedSleepAccelerator"];
+			ThingDef wallMountedSleepAccelerator = Utility.newAccelerators!["WallMountedSleepAccelerator"];
 			wallMountedSleepAccelerator.designationCategory
 				= enabled_WallMountedSleepAccelerator ? Utility.ideology : null;
 			Utility.f_basePowerConsumption.SetValue(
@@ -68,10 +70,10 @@ namespace MoreSleepAccelerators
 
 			PatchApplier.TogglePatches(!enabled_SleepAcceleratorsStack);
 		}
-		private float RoundTo(float val, float multiple) => Mathf.Round(val / multiple) * multiple;
+		private static float RoundTo(float val, float multiple) => Mathf.Round(val / multiple) * multiple;
 		public void DoSettingsWindowContents(Rect inRect)
 		{
-			Listing_Standard listingStandard = new Listing_Standard();
+			Listing_Standard listingStandard = new();
 			listingStandard.Begin(inRect);
 			listingStandard.CheckboxLabeled(
 				"MoreSleepAccelerators.enabled_SleepAcceleratorsStack".Translate(),
@@ -113,7 +115,7 @@ namespace MoreSleepAccelerators
 			powerActive_RangeSleepAccelerator
 				= RoundTo(listingStandard.Slider(powerActive_RangeSleepAccelerator, 0f, 2000f), 10f);
 			listingStandard.Label("MoreSleepAccelerators.range"
-				.Translate(range_RangeSleepAccelerator.ToString("0.0")));
+				.Translate(range_RangeSleepAccelerator.ToString("0.0", CultureInfo.CurrentCulture)));
 			range_RangeSleepAccelerator
 				= RoundTo(listingStandard.Slider(range_RangeSleepAccelerator, 0f, 20f), 0.1f);
 			listingStandard.End();

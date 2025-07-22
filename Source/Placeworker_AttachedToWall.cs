@@ -6,13 +6,13 @@ namespace MoreSleepAccelerators
 {
 	public class Placeworker_AttachedToWall : PlaceWorker
 	{
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing? thingToIgnore = null, Thing? thing = null)
 		{
 			List<Thing> thingList = loc.GetThingList(map);
 			for (int i = 0; i < thingList.Count; i++)
 			{
 				Thing thing2 = thingList[i];
-				ThingDef thingDef = GenConstruct.BuiltDefOf(thing2.def) as ThingDef;
+				ThingDef? thingDef = GenConstruct.BuiltDefOf(thing2.def) as ThingDef;
 				if (thingDef?.building != null)
 				{
 					if (thingDef.Fillage == FillCategory.Full)

@@ -12,10 +12,10 @@ namespace MoreSleepAccelerators
 {
 	public static class Utility
 	{
-		public static bool initialized = false;
-		public static ThingDef sleepAccelerator;
-		public static DesignationCategoryDef ideology;
-		public static Dictionary<string, ThingDef> newAccelerators;
+		public static bool initialized;
+		public static ThingDef? sleepAccelerator;
+		public static DesignationCategoryDef? ideology;
+		public static Dictionary<string, ThingDef>? newAccelerators;
 		public const BindingFlags flags =
 			BindingFlags.Instance | BindingFlags.Static |
 			BindingFlags.Public | BindingFlags.NonPublic;
@@ -47,17 +47,17 @@ namespace MoreSleepAccelerators
 				= ((Func<ThingDef, ThingDef>)ReplaceDefIfNewAccelerator).Method;
 
 		public static readonly HarmonyMethod
-			transpiler_ReplaceDefIfNewAccelerator = new HarmonyMethod(
+			transpiler_ReplaceDefIfNewAccelerator = new(
 					((Func<IEnumerable<CodeInstruction>, IEnumerable<CodeInstruction>>)
 					ReplaceDefIfNewAccelerator).Method
 				),
-			transpiler_ReplaceDefIfNewAccelerator_AfterStaticChecks = new HarmonyMethod(
+			transpiler_ReplaceDefIfNewAccelerator_AfterStaticChecks = new(
 					((Func<IEnumerable<CodeInstruction>, IEnumerable<CodeInstruction>>)
 					ReplaceDefIfNewAccelerator_AfterStaticChecks).Method
 				);
 
 		public static ThingDef ReplaceDefIfNewAccelerator(ThingDef def)
-			=> newAccelerators.ContainsValue(def) ? sleepAccelerator : def;
+			=> newAccelerators!.ContainsValue(def) ? sleepAccelerator! : def;
 
 		public static IEnumerable<CodeInstruction> ReplaceDefIfNewAccelerator(
 			IEnumerable<CodeInstruction> instructions)
