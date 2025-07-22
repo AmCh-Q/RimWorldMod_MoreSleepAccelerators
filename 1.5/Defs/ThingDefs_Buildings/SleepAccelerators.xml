@@ -65,7 +65,7 @@
           <BedRestEffectiveness>0.35</BedRestEffectiveness>
           <BedHungerRateFactor>0.20</BedHungerRateFactor>
         </statOffsets>
-        <maxSimultaneous>2</maxSimultaneous>
+        <maxSimultaneous>1</maxSimultaneous>
         <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
         <mustBePlacedAdjacentCardinalToAndFacingBedHead>true</mustBePlacedAdjacentCardinalToAndFacingBedHead>
       </li>
