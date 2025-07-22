@@ -1,6 +1,9 @@
-﻿using HarmonyLib;
+﻿using System.Reflection;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
+
+[assembly: AssemblyVersionAttribute("1.2.4")]
 
 namespace MoreSleepAccelerators
 {

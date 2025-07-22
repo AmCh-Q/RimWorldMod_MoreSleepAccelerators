@@ -6,7 +6,7 @@
     <li>Happycam</li>
   </authors>
   <packageId>AmCh.MoreSleepAccelerators</packageId>
-  <modVersion IgnoreIfNoMatchingField="True">1.2.3</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.2.4</modVersion>
   <modIconPath IgnoreIfNoMatchingField="True">MoreSleepAccelerators/ModIcon</modIconPath>
   <url>https://github.com/AmCh-Q/RimWorldMod_MoreSleepAccelerators</url>
   <supportedVersions>
